@@ -23,6 +23,9 @@
 
     <%= render 'friends/nav' %>
     <div class="container">
+      <% if notice %>
+        <%= render 'layouts/alerts' %>
+      <% end %>
       <%= yield %>
     </div>
 

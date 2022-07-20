@@ -1,16 +1,5 @@
 <p style="color: green"><%= notice %></p>
 
-<table class="table">
-  <%= render @friend %>
-</table>
-
-<div>
-  <%= link_to "Edit this friend", edit_friend_path(@friend) %> |
-  <%= link_to "Back to friends", friends_path %>
-
-  <%= button_to "Destroy this friend", @friend, method: :delete %>
-</div>
-
 <div class="jumbotron">
   <h1 class="display-4"><%= @friend.first_name %>'s Details</h1>
   <p class="lead">
