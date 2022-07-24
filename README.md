@@ -18,9 +18,6 @@ This is a CRUD App for friends build on Rails. It has a fully functional website
 ![Ruby on Rails](https://icongr.am/devicon/rails-original-wordmark.svg?size=50&color=currentColor)
 ![Bootstrap](https://icongr.am/devicon/bootstrap-plain.svg?size=50&color=0e1dec)
 
-
-![Ruby on Rails](https://icongr.am/devicon/rails-original-wordmark.svg?size=50&color=currentColor)
-
 ## Get Started
 
 ### Run
