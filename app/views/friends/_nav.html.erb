@@ -26,4 +26,23 @@
           </li>
         </ul>
       </div>
+            <div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar">
+        <ul class="navbar-nav ms-auto flex-nowrap">
+         <% if user_signed_in? %>
+           <li class="nav-item">
+            <%= link_to 'Log Out', destroy_user_session_path, data: { turbo_method: :delete }, class:'nav-link m-2 menu-item' %>
+            </li>
+            <li class="nav-item">
+              <%= link_to 'Edit Profile', edit_user_registration_path, class:'nav-link m-2 menu-item' %>
+            </li>
+         <% else %>
+           <li class="nav-item">
+            <%= link_to 'Log In', new_user_session_path, class:'nav-link m-2 menu-item nav-active' %>
+            </li>
+            <li class="nav-item">
+              <%= link_to 'Sign Up', new_user_registration_path, class:'nav-link m-2 menu-item' %>
+            </li>
+         <% end %>
+        </ul>
+      </div>
     </nav>
