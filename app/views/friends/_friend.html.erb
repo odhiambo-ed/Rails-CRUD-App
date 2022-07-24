@@ -1,0 +1,13 @@
+<% if friend.user == current_user %>
+  <tbody>
+    <tr>
+      <th scope="row"><%= friend.id %></th>
+      <td><%= friend.first_name %></td>
+      <td><%= friend.last_name %></td>
+      <td><%= friend.email %></td>
+      <td><%= friend.phone %></td>
+      <td><%= friend.twitter %></td>
+      <td><%= link_to "Show this friend", friend %></td>
+    </tr>
+  </tbody>
+<% end %>

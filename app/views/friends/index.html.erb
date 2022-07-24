@@ -1,0 +1,27 @@
+<h1>My Friends</h1>
+
+<div class="mt-4" id="friends">
+  <div>
+
+  <table class="table">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">First name</th>
+      <th scope="col">Last name</th>
+      <th scope="col">Email</th>
+      <th scope="col">Phone</th>
+      <th scope="col">Handle</th>
+      <th scope="col"></th>
+    </tr>
+  </thead>
+  <% @friends.each do |friend| %>
+    <%= render friend %>
+  <% end %>
+</table>
+
+</div>
+
+</div>
+
+<%= link_to "New friend", new_friend_path %>
