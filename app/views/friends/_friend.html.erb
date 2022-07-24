@@ -1,3 +1,4 @@
+<% if friend.user == current_user %>
   <tbody>
     <tr>
       <th scope="row"><%= friend.id %></th>
@@ -9,3 +10,4 @@
       <td><%= link_to "Show this friend", friend %></td>
     </tr>
   </tbody>
+<% end %>
