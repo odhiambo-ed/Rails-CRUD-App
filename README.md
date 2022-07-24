@@ -6,9 +6,9 @@ This is a CRUD App for friends build on Rails. It has a fully functional website
 
 
 
-## Demo Video
+## Demo Link
 
-[Video Link](https://drive.google.com/file/d/1X0nwMes1jkyZRFTucSQRmC4g1OzDx3Jx/view?usp=sharing)
+[Live Link](https://drive.google.com/file/d/1X0nwMes1jkyZRFTucSQRmC4g1OzDx3Jx/view?usp=sharing)
 
 
 ## Built With
@@ -16,14 +16,7 @@ This is a CRUD App for friends build on Rails. It has a fully functional website
 
 ![Ruby](https://icongr.am/devicon/ruby-original.svg?size=50&color=currentColor)
 ![Ruby on Rails](https://icongr.am/devicon/rails-original-wordmark.svg?size=50&color=currentColor)
-
-- Ruby
-- JSON data
-- [git-bash](https://git-scm.com/downloads)
-
-## Built With
-
-<a href='https://www.ruby-lang.org/en/'><img src='https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F4.bp.blogspot.com%2F-lvBDcRp_jl8%2FVzRp2rLNttI%2FAAAAAAAAAYs%2F4YivgL8duHktR32feBMVY8kFqe2K2A4sQCLcB%2Fs1600%2Fruby-1212.png&f=1&nofb=1' height='60' alt='Ruby Logo' aria-label='https://www.ruby-lang.org/en/' /></a>
+![Bootstrap](https://icongr.am/devicon/bootstrap-plain.svg?size=50&color=0e1dec)
 
 
 ![Ruby on Rails](https://icongr.am/devicon/rails-original-wordmark.svg?size=50&color=currentColor)
