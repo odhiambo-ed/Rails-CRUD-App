@@ -8,7 +8,7 @@ This is a CRUD App for friends build on Rails. It has a fully functional website
 
 ## Demo Link
 
-[Live Link](https://drive.google.com/file/d/1X0nwMes1jkyZRFTucSQRmC4g1OzDx3Jx/view?usp=sharing)
+[Live Link](https://rails-crud-app23.herokuapp.com/)
 
 
 ## Built With
